@@ -3,6 +3,7 @@ package mogee.springframework.velspetclinic.model;
 public class PetType {
     private String name;
 
+
     public String getName() {
         return name;
     }
