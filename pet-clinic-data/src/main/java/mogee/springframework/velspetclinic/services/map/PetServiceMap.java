@@ -2,10 +2,11 @@ package mogee.springframework.velspetclinic.services.map;
 
 import mogee.springframework.velspetclinic.model.Pet;
 import mogee.springframework.velspetclinic.services.CrudService;
+import mogee.springframework.velspetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet,Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet,Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
